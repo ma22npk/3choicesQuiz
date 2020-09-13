@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Style CSS -->
+  <link href="style.css" rel="stylesheet">
+  <title>３択クイズ</title>
+</head>
+
+<body>
+  <div class="container">
+    <p id="question">What is A?</p>
+    <ul id="choices">
+    </ul>
+    <div class="btn disabled" id="btn">NEXT</div>
+
+    <!-- result section -->
+    <section class="hidden" id="result">
+      <p></p>
+      <!-- hrefが空白になっていることで、リプレイボタンを押すと最初の画面に戻る仕組み -->
+      <a href="">Replay?</a>
+    </section>
+    <!-- /result section -->
+
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
